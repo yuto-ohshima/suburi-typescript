@@ -1,0 +1,9 @@
+{
+	"scripts": {
+		"init": "npx tsc --init",
+		"build": "npx tsc src/index.ts --outDir ./dist"
+	},
+	"devDependencies": {
+		"typescript": "^5.3.2"
+	}
+}
